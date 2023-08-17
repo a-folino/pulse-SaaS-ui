@@ -3,12 +3,13 @@
     flex-direction: column;
     justify-content: space-between;
     border-radius: 20px;
-    background: pink;
     padding: 15px;
     min-height: 150px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
 
     .title {
         color: white;
+        font-weight: bold;
     }
 
     .value {

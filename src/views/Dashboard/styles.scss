@@ -1,6 +1,8 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     padding: 50px 60px 50px 40px;
-
 
     .change-card-data {
         background: white;
@@ -19,5 +21,11 @@
         & > * {
             flex: 1;
         }
+    }
+
+    .middle-dashboard {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
     }
 }
