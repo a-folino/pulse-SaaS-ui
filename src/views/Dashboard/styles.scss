@@ -1,0 +1,17 @@
+.container {
+    padding: 50px 60px 50px 40px;
+
+
+    .change-card-data {
+        cursor: pointer;
+    }
+
+    .top-cards {
+        display: flex;
+        gap: 10px;
+
+        & > * {
+            flex: 1;
+        }
+    }
+}

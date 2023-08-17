@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+$primary-font: 'Poppins', sans-serif;
+$text-color: #090910;
+
+.app {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: $primary-font;
+    color: $text-color;
+    overflow: hidden;
+}
