@@ -4,15 +4,26 @@
     justify-content: space-between;
     border-radius: 20px;
     background: pink;
-    padding: 10px 15px;
+    padding: 15px;
+    min-height: 150px;
+
+    .title {
+        color: white;
+    }
+
+    .value {
+        color: white;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
 
     .percent {
         background: #fafafa;
         text-align: center;
-        border-radius: 6px;
+        border-radius: 10px;
         border: 1px solid lightgrey;
         font-size: .8em;
         padding: 2px;
-        max-width: 6ch;
+        max-width: 7ch;
     }
 }

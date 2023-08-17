@@ -26,6 +26,14 @@ function App() {
 
   return (
     <div className="app">
+
+      {/* {add login functionality} */}
+      {/* {window.localStorage.getItem('name')?.length == null ? <Login /> :
+        <>
+          <SideBar activePage={activePage} setActivePage={setActivePage} />
+          {displayPage()}
+        </>
+      } */}
       <SideBar activePage={activePage} setActivePage={setActivePage} />
       {displayPage()}
     </div>

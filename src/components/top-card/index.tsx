@@ -10,8 +10,8 @@ interface Props {
 export const TopCard = ({title, value, percent, backgroundColor}: Props): JSX.Element => {
     return (
         <div className="wrapper" style={{ backgroundColor: backgroundColor }}>
-            <h3>{title}</h3>
-            <p>{value}</p>
+            <p className="title">{title}</p>
+            <p className="value">{value}</p>
             <span className="percent">{percent}</span>
         </div>
     )
