@@ -3,7 +3,6 @@ import './styles.scss';
 import { monthlyData } from '../../data/data';
 import { weeklyData } from '../../data/data';
 import { useEffect, useState } from 'react';
-import { MiniProfile } from '../../components/mini-profile';
 import { DashboardHeader } from '../../components/dashboard-header';
 import { SalesChart } from '../../components/sales-chart';
 import { CardDataProps } from '../../types/types';
