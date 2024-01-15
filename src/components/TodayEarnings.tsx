@@ -10,7 +10,7 @@ export const TodayEarnings = () => {
             data={todayEarnings} 
             index="Dollars" 
             categories={["Dollars"]} 
-            colors={['grey']}
+            colors={['black']}
         />
     </div>
   )
