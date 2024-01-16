@@ -1,17 +1,13 @@
+import { MidSection } from './components/MidSection'
 import { Nav } from './components/Nav'
-import { TodayEarnings } from './components/TodayEarnings'
-import { TodayOrders } from './components/TodayOrders'
-import { MonthlyRevenue } from './components/MonthlyRevenue'
-import { ItemsSold } from './components/ItemsSold'
+import { TopSection } from './components/TopSection'
 
 export const App = () => {
   return (
-    <div className="flex flex-col items-center gap-10">
+    <div className="m-8">
       <Nav />
-      <TodayEarnings />
-      <TodayOrders />
-      <MonthlyRevenue />
-      <ItemsSold />
+      <TopSection />
+      <MidSection />
     </div>
   )
 }
